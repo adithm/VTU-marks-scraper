@@ -4,9 +4,9 @@ import csv
 
 # converts marks to grade points
 def point(a):
-	if (a < 50):
-		return 0 if a < 40 else int((a - 5) / 10 + 1)
-	return min(int(a / 10 + 1), 10)
+  if (a < 50):
+    return 0 if a < 40 else int((a - 5) / 10 + 1)
+  return min(int(a / 10 + 1), 10)
 
 allMarks = []
 rangeEnd = 198
