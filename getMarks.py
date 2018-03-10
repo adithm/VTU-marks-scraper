@@ -2,7 +2,7 @@ import requests
 import re
 import csv
 
-# converts marks to grade points 
+# converts marks to grade points
 def point(a):
 	if (a < 50):
 		return 0 if a < 40 else int((a - 5) / 10 + 1)
